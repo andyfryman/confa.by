@@ -1,0 +1,285 @@
+.teaser_large {
+    background-image: url("../assets/background.jpg");
+    background-position: 100% 90%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+    display: flex;
+    height: calc(100vh - 50px);
+    flex-direction: column;
+}
+
+.teaser_container_large {
+    width: 1280px;
+    margin: auto;
+}
+
+.teaser_info_container_large {
+    margin-bottom: 32px;
+    margin-top: calc(20vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding-left: 24px;
+    animation: fromLeft 1s forwards;
+}
+
+.teaser_info_date_large {
+    margin-bottom: 32px;
+}
+
+.teaser_info_date_days_large {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.teaser_info_date_year_large {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.teaser_slogan_container_large {
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    text-transform: uppercase;
+    animation: fromLeft 1s forwards;
+}
+
+.teaser_large_buttons {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: fromBottomMini 1s forwards;
+}
+
+.teaser_slogan_three_large {
+    font-size: 136px;
+    padding-left: 120px;
+    font-style: italic;
+}
+
+.teaser_slogan_two_large {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.teaser_slogan_one_large {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.teaser_button_white {
+    background-color: transparent;
+    border-color: white;
+}
+
+.quote {
+    background-color: var(--main-color);
+    padding: 40px 0;
+    display: flex;
+}
+
+.quote_container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.quote_info {
+    max-width: 800px;
+    color: #f3f2f2;;
+    font-size: 24px;
+    font-style: italic;
+    animation: fromRight 1s forwards;
+}
+
+.quote_text {
+    margin-bottom: 24px;
+}
+
+.quote_text::before {
+    content: "\2014 ";
+}
+
+.quote_image_container {
+    width: 306px;
+    margin-right: 56px;
+    animation: opacityOnly 1.5s forwards;
+}
+
+.quote_image {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.quote_title {
+    font-weight: 900;
+    text-align: right;
+}
+
+@media screen and (min-width: 992px) {
+    .teaser {
+        background-position: 100% 82%;
+    }
+}
+
+@media (max-width: 1360px) {
+    .quote_info {
+        max-width: 664px;
+        font-size: 20px;
+    }
+
+    .teaser_container_large {
+        margin: 0 32px;
+    }
+
+    .teaser_info_container_large {
+        margin-bottom: 24px;
+    }
+
+    .teaser_info_date_large {
+        margin-bottom: 24px;
+    }
+
+    .teaser_info_container_large {
+        padding-left: 16px;
+    }
+
+    .teaser_slogan_container_large {
+        padding-left: 16px;
+    }
+
+    .teaser_slogan_three_large {
+        padding-left: 96px;
+        font-size: 96px;
+    }
+
+    .teaser_slogan_two_large {
+        font-size: 40px;
+    }
+
+    .teaser_slogan_one_large {
+        font-size: 24px;
+    }
+
+    .quote {
+        padding: 32px 0;
+    }
+
+    .quote_container {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .quote_info {
+        max-width: 600px;
+        font-size: 18px;
+    }
+
+    .quote_image_container {
+        margin-right: 48px;
+    }
+
+    .quote_container {
+       margin: 0 32px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .teaser_container_large {
+        margin: 0 auto;
+        max-width: 680px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 24px;
+    }
+
+    .quote_info {
+        font-size: 18px;
+    }
+
+    .quote_image_container {
+        margin-right: 32px;
+    }
+
+    .quote_container {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .teaser_container_large {
+        margin: 0 auto;
+        max-width: 330px;
+        margin: 0 16px;
+    }
+
+    .teaser_info_container_large {
+        margin-bottom: 8px;
+    }
+
+    .teaser_info_date_large {
+        margin-bottom: 8px;
+    }
+
+    .teaser_info_container_large {
+        padding-left: 12px;
+    }
+
+    .teaser_slogan_container_large {
+        padding-left: 12px;
+    }
+
+    .teaser_slogan_three_large {
+        padding-left: 48px;
+        font-size: 48px;
+    }
+
+    .teaser_slogan_two_large {
+        font-size: 20px;
+    }
+
+    .teaser_slogan_one_large {
+        font-size: 16px;
+    }
+
+    .quote {
+        padding: 24px 0;
+        justify-content: center;
+    }
+
+    .quote_container {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 16px;
+    }
+
+    .quote_info {
+        max-width: 480px;
+    }
+
+    .quote_text {
+        margin-bottom: 20px;
+    }
+
+    .quote_image_container {
+        margin-right: 0;
+        margin-bottom: 24px;
+        width: 168px;
+    }
+
+    .quote_title {
+        text-align: left;
+    }
+
+    .teaser_info_container_large > .teaser_info_title {
+        font-size: 12px;
+    }
+    
+}

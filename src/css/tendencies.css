@@ -1,0 +1,267 @@
+.tendencies {
+    background-color: var(--back-color);
+    padding: 40px 0;
+    display: flex;
+    justify-content: start;
+}
+
+.tendencies_title {
+    margin-bottom: 16px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0 0 12px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.tendencies_list {
+    list-style: none;
+}
+
+.tendencies_list_item::before {
+    content: "\2014\00a0 ";
+}
+
+.tendencies_list_item {
+    font-size: 18px;
+    color: var(--main-color);
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.tendencies_text {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tendencies_text_highlight {
+    color: var(--blue-color);
+}
+
+.awaits {
+    background-color: var(--back-color);
+}
+
+.awaits_container,
+.preview_container {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.preview_container {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.awaits_info {
+    color: var(--main-color);
+    width: calc(50% - 24px);
+}
+
+.awaits_info h2,
+.results_container h2 {
+    font-weight: 900;
+    border-bottom: 4px var(--blue-color) solid;
+    width: fit-content;
+}
+
+.results_audience,
+.results_achievements {
+    width: calc(50% - 16px);
+}
+
+.results {
+    color: var(--main-color);
+}
+
+.results_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_blue {
+    border-color: var(--blue-color);
+    color: var(--blue-color);
+    background-color: transparent;
+}
+
+.button_blue:hover {
+    color: var(--blue-color);
+}
+
+.preview {
+    background-color: var(--blue-color);
+}
+
+.preview_title {
+    margin-right: 56px;
+}
+
+.preview_title_item {
+    color: white;
+    font-style: italic;
+}
+
+.preview_text {
+    font-size: 20px;
+    color: white;
+    max-width: 456px;
+}
+
+@media (max-width: 1360px) {
+    .tendencies,
+    .awaits_container {
+        padding: 32px 0;
+    }
+
+    .program_shedule_container {
+        margin: 0 40px;
+    }
+
+    .tendencies_title {
+        font-size: 16px;
+    }
+
+    .tendencies_list_item,
+    .tendencies_text {
+        font-size: 16px;
+    }
+
+    .awaits_info {
+        width: calc(50% - 20px);
+    }
+
+    .preview_text {
+        font-size: 18px;
+        /* width: 416px; */
+    }
+
+    .preview_title {
+        margin-right: 48px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .awaits_info {
+        width: calc(50% - 16px);
+    }
+
+    .awaits_info ,
+    .results_container h2 {
+        font-size: 20px;
+    }
+
+    .program_shedule_container {
+        margin: 0 32px;
+    }
+
+    .preview_text {
+        max-width: none;
+        font-size: 16px;
+        width: 368px;
+    }
+
+    .preview_title {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 1360px) {
+    .tendencies {
+        padding: 24px 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .tendencies {
+        padding: 24px 0;
+    }
+
+    .awaits_info {
+        width: calc(50% - 12px);
+        align-self: center;
+        margin: 0;
+    }
+
+    .awaits_info h2,
+    .results_container h2 {
+        font-size: 16px;
+    }
+    
+    .program_shedule_container {
+        margin: 0 24px;
+    }
+
+    .preview_text {
+        max-width: 285px;
+        font-size: 15px;
+    }
+
+    .preview_title {
+        margin-right: 32px;
+    }
+
+    .program_table_list {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .tendencies_list_item,
+    .tendencies_text {
+        margin-bottom: 4px;
+        font-size: 14px;
+    }
+
+    .awaits_container {
+        width: 100%;
+        margin: 0;
+        padding: 24px 0;
+        flex-direction: column;
+    }
+
+    .awaits_info {
+        margin: 0 16px;
+        width: auto;
+    }
+
+    .button_blue {
+        width: 230px;
+    }
+
+    .preview_container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .preview_title {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .preview_text {
+        font-size: 14px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .awaits_video {
+        width: 100%;
+    }
+
+    .program_shedule_container {
+        margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .results_container {
+        flex-direction: column;
+    }
+
+    .results_audience {
+        width: 100%;
+    }
+}
