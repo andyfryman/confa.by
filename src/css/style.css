@@ -1,5 +1,5 @@
 @import url("basic_preset.css");
-@import url("fm.revealator.jquery.css");
+@import url("../../node_modules/aos/dist/aos.css");
 @import url("colors.css");
 @import url("header.css");
 @import url("teaser.css");

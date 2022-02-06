@@ -1,6 +1,9 @@
-require("./fm.revealator.jquery");
+const AOS = require('aos');
 
 document.addEventListener("DOMContentLoaded", () => {
+    AOS.init({
+        once: true,
+    });
     document.addEventListener('scroll', function(e) {
         const element = document.querySelector("header.header");
         const button = document.querySelector(".program_button_wrapper");
