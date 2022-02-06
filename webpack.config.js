@@ -1,6 +1,7 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
+const TerserPlugin = require("terser-webpack-plugin");
 const path = require('path');
 
 module.exports = {
@@ -28,6 +29,7 @@ module.exports = {
           new CssMinimizerPlugin({
             minify: CssMinimizerPlugin.cleanCssMinify,
           }),
+          new TerserPlugin()
         ],
         minimize: true,
     },

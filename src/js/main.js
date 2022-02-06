@@ -1,3 +1,5 @@
+require("./fm.revealator.jquery");
+
 document.addEventListener("DOMContentLoaded", () => {
     document.addEventListener('scroll', function(e) {
         const element = document.querySelector("header.header");

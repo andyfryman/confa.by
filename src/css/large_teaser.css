@@ -21,7 +21,6 @@
     flex-direction: column;
     align-items: self-start;
     padding-left: 24px;
-    animation: fromLeft 1s forwards;
 }
 
 .teaser_info_date_large {
@@ -46,7 +45,6 @@
     align-content: center;
     color: white;
     text-transform: uppercase;
-    animation: fromLeft 1s forwards;
 }
 
 .teaser_large_buttons {
@@ -54,7 +52,6 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: center;
-    animation: fromBottomMini 1s forwards;
 }
 
 .teaser_slogan_three_large {
@@ -94,7 +91,6 @@
     color: #f3f2f2;;
     font-size: 24px;
     font-style: italic;
-    animation: fromRight 1s forwards;
 }
 
 .quote_text {
@@ -108,7 +104,6 @@
 .quote_image_container {
     width: 306px;
     margin-right: 56px;
-    animation: opacityOnly 1.5s forwards;
 }
 
 .quote_image {
