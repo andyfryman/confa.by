@@ -72,6 +72,7 @@
 }
 
 .program_item_speaker {
+    display: flex;
     margin-bottom: 20px;
     /* width: 47%; */
     list-style: none;
@@ -241,6 +242,7 @@
     }
 
     .program_item_speaker {
+        display: block;
         margin-bottom: 16px;
     }
 
@@ -248,7 +250,7 @@
         width: 32%;
         max-width: 120px;
         margin-right: 12px;
-        margin-bottom: 12px;
+        margin-bottom: 2px;
         height: 150px;
     }
 

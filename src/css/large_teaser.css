@@ -1,8 +1,8 @@
 .teaser_large {
     background-image: url("../assets/background.jpg");
-    background-position: 100% 90%;
+    background-position: 100% 50%;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     width: 100%;
     display: flex;
     height: calc(100vh - 50px);
@@ -117,12 +117,6 @@
     text-align: right;
 }
 
-@media screen and (min-width: 992px) {
-    .teaser {
-        background-position: 100% 82%;
-    }
-}
-
 @media (max-width: 1360px) {
     .quote_info {
         max-width: 664px;
@@ -172,6 +166,11 @@
 }
 
 @media (max-width: 1280px) {
+    .teaser_large {
+        background-position: 70% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     .quote_info {
         max-width: 600px;
         font-size: 18px;

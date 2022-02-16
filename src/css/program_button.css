@@ -58,7 +58,7 @@
 }
 
 .program_button_link:hover > svg {
-    fill: var(--main-color);
+    fill: var(--red-color);
 }
 
 @media screen and (min-width: 1360px) {
