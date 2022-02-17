@@ -101,14 +101,24 @@
 }
 
 .program_item_speaker_name a {
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 700;
+    opacity: 0.9;
+}
+
+.program_item_speaker_name a[id]::before {
+  content: '';
+  display: block;
+  height:      65px;
+  margin-top: -65px;
+  visibility: hidden;
 }
 
 .program_item_speaker_degree {
     font-size: 15px;
     margin-top: 4px;
     text-align: justify;
+    opacity: 0.6;
 }
 
 .program_item_speaker_report {
