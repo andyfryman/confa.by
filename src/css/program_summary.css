@@ -42,6 +42,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-align: justify;
 }
 
 .program_column_features > li {
