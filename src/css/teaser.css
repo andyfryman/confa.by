@@ -143,6 +143,11 @@
     .teaser {
         height: 276px;
     }
+    .teaser_container {
+        backdrop-filter: blur(5px);
+        margin: unset !important;
+        padding: 20px 40px;
+    }
     .teaser_slogan_container {
         width: 250px;
     }
