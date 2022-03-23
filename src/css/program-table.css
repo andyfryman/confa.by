@@ -251,8 +251,10 @@
     }
 
     .program_item_speaker {
+        width: 100%;
         display: block;
         margin-bottom: 16px;
+        min-width: auto;
     }
 
     .program_item_speaker_image {
@@ -261,10 +263,6 @@
         margin-right: 12px;
         margin-bottom: 2px;
         height: 150px;
-    }
-
-    .program_item_speaker {
-        min-width: auto;
+        float: left;
     }
 }
-
