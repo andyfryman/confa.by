@@ -81,7 +81,7 @@
 
 .teaser_button_white {
     background-color: transparent;
-    border-color: white;
+    border-color: rgb(255, 255, 255);
 }
 
 .quote {
